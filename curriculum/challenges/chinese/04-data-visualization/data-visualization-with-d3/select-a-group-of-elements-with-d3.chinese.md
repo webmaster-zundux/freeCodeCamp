@@ -1,8 +1,6 @@
 ---
 id: 587d7fa6367417b2b2512bc3
 title: Select a Group of Elements with D3
-required:
-  - src: 'https://cdnjs.cloudflare.com/ajax/libs/d3/4.3.0/d3.min.js'
 challengeType: 6
 videoUrl: ''
 localeTitle: 使用D3选择一组元素
@@ -20,11 +18,11 @@ localeTitle: 使用D3选择一组元素
 ```yml
 tests:
   - text: 页面上应该有3个<code>li</code>元素，每个元素中的文本应该是“list item”。大写和间距应完全匹配。
-    testString: 'assert($("li").text().match(/list item/g).length == 3, "There should be 3 <code>li</code> elements on the page, and the text in each one should say "list item". Capitalization and spacing should match exactly.");'
+    testString: assert($('li').text().match(/list item/g).length == 3);
   - text: 您的代码应该访问<code>d3</code>对象。
-    testString: 'assert(code.match(/d3/g), "Your code should access the <code>d3</code> object.");'
+    testString: assert(code.match(/d3/g));
   - text: 您的代码应该使用<code>selectAll</code>方法。
-    testString: 'assert(code.match(/\.selectAll/g), "Your code should use the <code>selectAll</code> method.");'
+    testString: assert(code.match(/\.selectAll/g));
 
 ```
 
@@ -65,4 +63,5 @@ tests:
 ```js
 // solution required
 ```
-</section>
+
+/section>

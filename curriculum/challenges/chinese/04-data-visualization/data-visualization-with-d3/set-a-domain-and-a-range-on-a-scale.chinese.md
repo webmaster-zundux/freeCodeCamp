@@ -1,8 +1,6 @@
 ---
 id: 587d7fac367417b2b2512bdb
 title: Set a Domain and a Range on a Scale
-required:
-  - src: 'https://cdnjs.cloudflare.com/ajax/libs/d3/4.3.0/d3.min.js'
 challengeType: 6
 videoUrl: ''
 localeTitle: 在比例上设置域和范围
@@ -20,15 +18,15 @@ localeTitle: 在比例上设置域和范围
 ```yml
 tests:
   - text: 您的代码应使用<code>domain()</code>方法。
-    testString: 'assert(code.match(/\.domain/g), "Your code should use the <code>domain()</code> method.");'
+    testString: assert(code.match(/\.domain/g));
   - text: '比例的<code>domain()</code>应设置为<code>[250, 500]</code> 。'
-    testString: 'assert(JSON.stringify(scale.domain()) == JSON.stringify([250, 500]), "The <code>domain()</code> of the scale should be set to <code>[250, 500]</code>.");'
+    testString: assert(JSON.stringify(scale.domain()) == JSON.stringify([250, 500]));
   - text: 您的代码应使用<code>range()</code>方法。
-    testString: 'assert(code.match(/\.range/g), "Your code should use the <code>range()</code> method.");'
+    testString: assert(code.match(/\.range/g));
   - text: '刻度的<code>range()</code>应设置为<code>[10, 150]</code> 。'
-    testString: 'assert(JSON.stringify(scale.range()) == JSON.stringify([10, 150]), "The <code>range()</code> of the scale should be set to <code>[10, 150]</code>.");'
+    testString: assert(JSON.stringify(scale.range()) == JSON.stringify([10, 150]));
   - text: <code>h2</code>的文本应为-102。
-    testString: 'assert($("h2").text() == "-102", "The text in the <code>h2</code> should be -102.");'
+    testString: assert($('h2').text() == '-102');
 
 ```
 
@@ -69,4 +67,5 @@ tests:
 ```js
 // solution required
 ```
-</section>
+
+/section>

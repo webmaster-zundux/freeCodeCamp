@@ -2,7 +2,6 @@
 id: bad87fee1348bd9aec908850
 title: Apply the Default Bootstrap Button Style
 challengeType: 0
-guideUrl: 'https://chinese.freecodecamp.org/guide/certificates/apply-the-default-bootstrap-button-style'
 videoUrl: ''
 localeTitle: 应用默认引导按钮样式
 ---
@@ -20,9 +19,9 @@ localeTitle: 应用默认引导按钮样式
 ```yml
 tests:
   - text: 将<code>btn</code>类应用于每个<code>button</code>元素。
-    testString: 'assert($(".btn").length > 5, "Apply the <code>btn</code> class to each of your <code>button</code> elements.");'
+    testString: assert($(".btn").length > 5);
   - text: 将<code>btn-default</code>类应用于每个<code>button</code>元素。
-    testString: 'assert($(".btn-default").length > 5, "Apply the <code>btn-default</code> class to each of your <code>button</code> elements.");'
+    testString: assert($(".btn-default").length > 5);
 
 ```
 
@@ -68,4 +67,5 @@ tests:
 ```js
 // solution required
 ```
-</section>
+
+/section>

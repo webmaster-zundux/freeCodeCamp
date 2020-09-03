@@ -4,11 +4,11 @@ title: Boo who
 isRequired: true
 challengeType: 5
 videoUrl: ''
-localeTitle: Boo que
+localeTitle: Boo quem
 ---
 
 ## Description
-<section id="description"> Verifique se um valor é classificado como um primitivo booleano. Retornar verdadeiro ou falso. Primitivas booleanas são verdadeiras e falsas. Lembre-se de usar <a href="http://forum.freecodecamp.org/t/how-to-get-help-when-you-are-stuck/19514" target="_blank">Read-Search-Ask</a> se você ficar preso. Tente emparelhar o programa. Escreva seu próprio código. </section>
+<section id="description"> Verifique se um valor é classificado como um primitivo booleano. Retornar verdadeiro ou falso. Primitivos booleanos são os valores verdadeiro e falso. Lembre-se de usar <a href="https://forum.freecodecamp.org/t/how-to-get-help-when-you-are-stuck-coding/19514" target="_blank">Read-Search-Ask</a> se você ficar preso. Tente programação em par. Escreva seu próprio código. </section>
 
 ## Instructions
 <section id="instructions">
@@ -69,6 +69,10 @@ booWho(null);
 <section id='solution'>
 
 ```js
-// solution required
+function booWho(bool) {
+  return typeof bool === 'boolean';
+}
+
+booWho(null);
 ```
 </section>

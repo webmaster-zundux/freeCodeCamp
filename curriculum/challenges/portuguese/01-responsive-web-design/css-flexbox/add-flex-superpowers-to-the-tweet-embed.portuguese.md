@@ -7,10 +7,11 @@ localeTitle: Adicione Superpotências Flex ao Tweet Incorporado
 ---
 
 ## Description
-<section id="description"> À direita está o tweet incorporado que será usado como exemplo prático. Alguns dos elementos ficariam melhores com um layout diferente. O último desafio demonstrou a <code>display: flex</code> . Aqui você adicionará a vários componentes no tweet incorporado para começar a ajustar seu posicionamento. </section>
+<section id="description"> À direita está o tweet incorporado que será usado como exemplo prático. Alguns dos elementos ficariam melhores com um layout diferente. O último desafio demonstrou a <code>display: flex</code> . Aqui você a adicionará a vários componentes no tweet incorporado para começar a ajustar seu posicionamento. </section>
 
 ## Instructions
-<section id="instructions"> Adicione a <code>display: flex</code> propriedade CSS <code>display: flex</code> para todos os itens a seguir - observe que os seletores já estão configurados no <code>header</code> CSS <code>.follow-btn</code> o cabeçalho <code>.profile-name</code> , o cabeçalho <code>.follow-btn</code> , o cabeçalho <code>h3</code> e <code>h4</code> , o <code>footer</code> e as <code>.stats</code> do rodapé. </section>
+<section id="instructions"> Adicione a propriedade CSS <code>display: flex</code> para todos os itens a seguir - observe que os seletores já estão configurados no CSS:
+<code>header</code>, <code>.profile-name</code> do cabeçalho, <code>.follow-btn</code> do cabeçalho, <code>h3</code> e <code>h4</code> do cabeçalho, <code>footer</code>, e <code>.stats</code> do rodapé. </section>
 
 ## Tests
 <section id='tests'>
@@ -102,7 +103,7 @@ tests:
   }
 </style>
 <header>
-  <img src="https://pbs.twimg.com/profile_images/378800000147359764/54dc9a5c34e912f34db8662d53d16a39_400x400.png" alt="Quincy Larson's profile picture" class="profile-thumbnail">
+  <img src="https://freecodecamp.s3.amazonaws.com/quincy-twitter-photo.jpg" alt="Quincy Larson's profile picture" class="profile-thumbnail">
   <div class="profile-name">
     <h3>Quincy Larson</h3>
     <h4>@ossia</h4>

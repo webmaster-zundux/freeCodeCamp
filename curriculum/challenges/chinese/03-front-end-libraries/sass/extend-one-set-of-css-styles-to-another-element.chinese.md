@@ -1,9 +1,6 @@
 ---
 id: 587d7fa5367417b2b2512bbd
 title: Extend One Set of CSS Styles to Another Element
-required:
-  - src: 'https://cdnjs.cloudflare.com/ajax/libs/sass.js/0.10.9/sass.sync.min.js'
-    raw: true
 challengeType: 0
 videoUrl: ''
 localeTitle: 将一组CSS样式扩展到另一个元素
@@ -21,9 +18,9 @@ localeTitle: 将一组CSS样式扩展到另一个元素
 ```yml
 tests:
   - text: 您的<code>info-important</code>类应该将<code>background-color</code>设置为<code>magenta</code> 。
-    testString: 'assert(code.match(/\.info-important\s*?{[\s\S]*background-color\s*?:\s*?magenta\s*?;[\s\S]*}/gi), "Your <code>info-important</code> class should have a <code>background-color</code> set to <code>magenta</code>.");'
+    testString: assert(code.match(/\.info-important\s*?{[\s\S]*background-color\s*?:\s*?magenta\s*?;[\s\S]*}/gi));
   - text: 您的<code>info-important</code>类应使用<code>@extend</code>从<code>info</code>类继承样式。
-    testString: 'assert(code.match(/\.info-important\s*?{[\s\S]*@extend\s*?.info\s*?;[\s\S]*/gi), "Your <code>info-important</code> class should use <code>@extend</code> to inherit the styling from the <code>info</code> class.");'
+    testString: assert(code.match(/\.info-important\s*?{[\s\S]*@extend\s*?.info\s*?;[\s\S]*/gi));
 
 ```
 
@@ -72,4 +69,5 @@ tests:
 ```js
 // solution required
 ```
-</section>
+
+/section>

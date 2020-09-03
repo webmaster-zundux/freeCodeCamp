@@ -18,7 +18,7 @@ localeTitle: 从数据源渲染图像
 ```yml
 tests:
   - text: 您应该使用<code>imageLink</code>属性来显示图像。
-    testString: 'assert(code.match(/val\.imageLink/g), "You should use the <code>imageLink</code> property to display the images.");'
+    testString: assert(code.match(/val\.imageLink/g));
 
 ```
 
@@ -79,7 +79,7 @@ tests:
   }
 </style>
 <h1>Cat Photo Finder</h1>
-<p class="message box">
+<p class="message">
   The message will go here
 </p>
 <p>
@@ -102,4 +102,5 @@ tests:
 ```js
 // solution required
 ```
-</section>
+
+/section>
